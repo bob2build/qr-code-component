@@ -3,7 +3,7 @@ body,
 main {
     margin: 0;
     height: 100%;
-    background-color: hsl(212, 45%, 89%);
+    background-color: #D5E1EF
 }
 
 main {
@@ -11,18 +11,18 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hsl(0, 0%, 100%);
 }
 
 section {
     width: 320px;
     height: 497px;
     box-shadow: 0 10px 40px hsl(220, 15%, 55%);
-    border-radius: 3%;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
 }
 
 .qrcode-container>img {
-    border-radius: 3%;
+    border-radius: 10px;
 }
 
 .qrcode-container .header-container .description-container {
